@@ -5,7 +5,15 @@ body {
   }
   
   
-  /* Про мене */
+  /* Заголовок */
+  .slogan{font-family: 'Monotype Corsiva';
+    font-style: italic ;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 45px;
+    color: #101dd1;
+    margin: 0 0 18px 0;} 
+  
   .myprof{
     font-style: normal;
     font-weight: 700;
