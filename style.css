@@ -1,17 +1,19 @@
 body {
   background-color: #e5e5e5;
-  padding: 40px;
-  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif; 
+
 }
 
 
 /* Про мене */
-.myprof{
-  font-style: normal;
+
+.slogan{font-family: 'Monotype Corsiva';
+  font-style: italic ;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  color: #000000;
+  font-size: 34px;
+  line-height: 45px;
+  color: #101dd1;
   margin: 0 0 18px 0;
 }
 .my-name{
@@ -35,7 +37,7 @@ body {
 /* Main content */
 
 .Main-content {
-  padding: 88px;
+  margin: 24px 88px 88px 88px
 }
 .Wrapper {
   display: flex;
@@ -131,7 +133,9 @@ color: #000000;
 }
 /* sidebar */
 .sidebar {
+  margin: 0px 0px 0px 0px;
   width: 370px;
+  height: 1240px;
   background: #e0ebfe;
 }
 .myfoto {
@@ -139,7 +143,7 @@ color: #000000;
 }
 .contacts-container,
 .tech-skill-container {
-  margin: 48px 0 0 40px;
+  margin: 28px 0 0 20px;
 }
 .sidebartitle {
   font-style: normal;
@@ -191,3 +195,4 @@ padding: 0 0 0 12px;
        
     color: #161D2A;
 }
+
