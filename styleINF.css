@@ -17,8 +17,8 @@ body {
   .my-name{
     font-style: normal;
     font-weight: 700;
-    font-size: 45px;
-    line-height: 55px;
+    font-size: 35px;
+    line-height: 45px;
     margin: 0 0 28px 0;
     color: #000000;} 
    
@@ -35,7 +35,7 @@ body {
   /* Main content */
   
   .Main-content {
-    padding: 88px;
+    margin: 24px 88px 88px 88px
   }
   .Wrapper {
     display: flex;
@@ -49,7 +49,7 @@ body {
   .projectstitle
   {font-style: normal;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 27px;
     color: #000000;
     margin: 0 0 8px 0;}
@@ -62,8 +62,8 @@ body {
     color: #000000;
   
     }
-  .projects-cont
-  {margin-bottom: 48px;
+  .theme-name
+  {margin-bottom: 20px;
   
   }
   .project-list{
@@ -84,7 +84,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    text-decoration-line: underline;
+    text-decoration-line: none;
       color: #005FFF;}
   
   /* Досвід роботи */
@@ -192,3 +192,51 @@ body {
       color: #161D2A;
   }
   
+/* Меню */
+.topmenu {
+    backface-visibility: hidden;
+    background: rgba(255,255,255,.8);}
+    .topmenu > li {
+        display: inline-block;
+        position: relative;
+      }
+      .topmenu > li > a {
+        font-family: 'Exo 2', sans-serif;
+        height: 70px;
+        line-height: 70px;
+        padding: 0 30px;
+        font-weight: bold;
+        color: #003559;
+        text-transform: uppercase;
+      }
+      .down:after {
+        content: "\f107";
+        margin-left: 8px;
+        font-family: FontAwesome;
+      }
+      .topmenu li a:hover { color: #E6855F; }
+      .submenu {
+        background: white;
+        border: 2px solid #003559;
+        position: absolute;
+        left: 0;
+        visibility: hidden;
+        opacity: 0;
+        z-index: 5;
+        width: 150px;
+        transform: perspective(600px) rotateX(-90deg);
+        transform-origin: 0% 0%;
+        transition: .6s ease-in-out;
+      }
+      .topmenu > li:hover .submenu{
+        visibility: visible;
+        opacity: 1;
+        transform: perspective(600px) rotateX(0deg);
+      }
+      .submenu li a {
+        color: #7f7f7f;
+        font-size: 13px;
+        line-height: 36px;
+        padding: 0 25px;
+        font-family: 'Kurale', serif;
+      }
