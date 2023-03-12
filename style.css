@@ -133,7 +133,8 @@ color: #000000;
 }
 /* sidebar */
 .sidebar {
-  margin: 0px 0px 0px 0px;
+  margin-right: 28px;
+  
   width: 370px;
   height: 1240px;
   background: #e0ebfe;

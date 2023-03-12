@@ -43,10 +43,11 @@ body {
   /* Main content */
   
   .Main-content {
-    margin: 24px 88px 88px 88px
-  }
+    margin: 24px 88px 88px 88px;
+    }
   .Wrapper {
     display: flex;
+    
     flex-direction: row-reverse;
     background: #ffffff;
     width: 1200px;
@@ -139,6 +140,7 @@ body {
   }
   /* sidebar */
   .sidebar {
+    margin-right: 28px;
     width: 370px;
     background: #e0ebfe;
   }
